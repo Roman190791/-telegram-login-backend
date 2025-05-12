@@ -5,7 +5,7 @@ from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
-BOT_TOKEN = "ВАШ_ТОКЕН_БОТА"  # Заміни на реальний токен від BotFather
+BOT_TOKEN = "7933363751:AAHKXlfZv-FLyihdQiKTMTp6nVS-B0yelKA"  # Заміни на реальний токен від BotFather
 
 def check_telegram_auth(data: dict) -> bool:
     auth_data = data.copy()
